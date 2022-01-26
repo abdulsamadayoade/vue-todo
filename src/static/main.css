@@ -1,0 +1,71 @@
+@font-face {
+    font-family: 'GeneralSans-Regular';
+    src: url('../fonts/GeneralSans-Regular.woff2') format('woff2'),
+         url('../fonts/GeneralSans-Regular.woff') format('woff'),
+         url('../fonts/GeneralSans-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GeneralSans-Semibold';
+    src: url('../fonts/GeneralSans-Semibold.woff2') format('woff2'),
+         url('../fonts/GeneralSans-Semibold.woff') format('woff'),
+         url('../fonts/GeneralSans-Semibold.ttf') format('truetype');
+    font-weight: 600;
+    font-display: swap;
+    font-style: normal;
+}
+
+:root {
+    /* Font Family */
+    --ff-regular: 'GeneralSans-Regular', sans-serif;
+    --ff-semibold: 'GeneralSans-Semibold', sans-serif;
+
+    /* Font Size */
+    --fs-body: 1.5rem;
+
+    /* Font Weight */
+    --fw-400: 400;
+    --fw-600: 600;
+
+    /* Colors */
+    --text-color: #fbf4e6;
+    --bg-color: #152F29;
+    --dark: rgb(24,24,24);
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+    font-family: var(--ff-regular);
+}
+
+body {
+    font-size: var(--fs-body);
+    font-weight: var(--fw-400);
+    line-height: 1.5;
+    color: var(--text-color);
+    background: var(--bg-color);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+button, input {
+    border: none;
+    outline: none;
+    font-family: inherit;
+}
+
+button {
+    cursor: pointer;
+}
