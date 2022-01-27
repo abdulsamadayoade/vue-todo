@@ -37,9 +37,9 @@ Users can:
 ## Author
 ### Abdulsamad Ayoade
 
-- Github: [@abdulsamadayoade](https://github.com/abdulsamadayoade) 
+- Github: [abdulsamadayoade](https://github.com/abdulsamadayoade) 
 
-- Twitter: [@abdulsamadayoade](https://twitter.com/samadayoade)
+- Twitter: [@samadayoade](https://twitter.com/samadayoade)
 
 - Linkedin: [Abdulsamad Ayoade](https://www.linkedin.com/in/abdulsamad-ayoade/)
 
