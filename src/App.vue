@@ -2,7 +2,7 @@
   <Header title="Todo App" />
   <AddTodo @add-todo="addTodo" />
   <Todos :todos="todos" @delete-todo="deleteTodo" @set-reminder="setReminder" />
-  <p v-if="todos.length > 0">Click the bell icon to set a reminder.</p>
+  <p v-if="todos.length > 0">Click the bell icon to toggle reminder.</p>
 </template>
 
 <script>

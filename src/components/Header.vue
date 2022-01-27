@@ -15,15 +15,19 @@ export default {
 
 <style lang="scss" scoped>
 header {
-    padding: 1.5rem 0;
-    background: var(--dark);
-    color: var(--text-color);
-    width: 100%;
-    text-align: center;
-    margin-bottom: 2rem;
+  padding: 1.5rem 0;
+  background: var(--dark);
+  color: var(--text-color);
+  width: 100%;
+  text-align: center;
+  margin-bottom: 2rem;
 }
 
 h1 {
-    font-size: 2.3rem;
+  font-size: 2.3rem;
+
+  @media (max-width: 768px) {
+    font-size: 2rem;
+  }
 }
 </style>
