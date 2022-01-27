@@ -1,10 +1,12 @@
 <template>
-  <input type="text" placeholder="Enter Todo" />
+  <input :value="textValue" @input="$emit('update:textValue', $event.target.value)" type="text" placeholder="Enter Todo" />
 </template>
 
 <script>
 export default {
-  name: 'TextInput'
+  name: 'TextInput',
+  props: ['textValue'],
+  emits: ['update:textValue']
 }
 </script>
 
@@ -18,7 +20,7 @@ input {
     width: 70%;
 
     &::placeholder {
-        color: var(--dark);
+      color: var(--dark);
     }
 }
 </style>

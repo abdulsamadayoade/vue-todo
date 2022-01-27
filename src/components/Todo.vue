@@ -38,23 +38,22 @@ export default {
     }
 
     &-delete {
-        background: var(--dark);
         color: var(--text-color);
     }
 
     &-reminder {
-        background: var(--text-color);
         margin-left: 1rem;
+        color: var(--text-color);
 
         &.active {
-            background: var(--dark);
-            color: var(--text-color);
+            color: var(--dark);
+            background: var(--text-color);
         }
     }
 }
 
 button {
-    background: transparent;
+    background: var(--dark);
     font-size: 2rem;
     padding: .5rem 1rem;
 }
